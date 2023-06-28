@@ -1,8 +1,7 @@
-#include <stdio.h>
 #include <cs50.h>
+#include <stdio.h>
 
-int main(void)
-{
+int main(void) {
     string name = get_string("What is your name? ");
     string location = get_string("Where do you live? ");
 

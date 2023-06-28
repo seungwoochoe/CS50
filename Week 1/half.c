@@ -1,5 +1,5 @@
-#include <stdio.h>
 #include <cs50.h>
+#include <stdio.h>
 
 float half(float bill, float tax, int tip);
 
@@ -13,8 +13,7 @@ int main(void) {
     return 0;
 }
 
-float half(float bill, float tax, int tip)
-{
+float half(float bill, float tax, int tip) {
     float sum = bill * (1 + tax / 100) * (1 + (float)tip / 100);
     return sum / 2;
 }
